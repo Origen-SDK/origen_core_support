@@ -1,0 +1,1 @@
+Origen.config.mode = :debug
