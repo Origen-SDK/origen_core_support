@@ -24,9 +24,6 @@ when "test"
 # before handing control back to Origen. Un-comment the example below to get started.
 else
   @plugin_commands ||= []
-  @plugin_commands = @plugin_commands + 
-  [
-" test         Test command from plugin core_support plugin"
-  ]
+  @plugin_commands << " test         Test command from plugin core_support plugin"
 end 
 

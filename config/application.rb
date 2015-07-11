@@ -12,6 +12,7 @@ class OrigenCoreSupportApplication < Origen::Application
     #:templates => "templates",
     #:programs => "program"
   }
+  config.release_externally = true
 
   # Versioning is based on a timestamp by default, if you would rather use semantic
   # versioning, i.e. v1.0.0 format, then set this to true.

@@ -13,7 +13,6 @@
 
 #autoload :Pioneer,   "pioneer"   # Only loads the file whenever Pioneer is referenced
 #require "pioneer"                # Loads the file always
-
-require "c99/soc"
-require "c99/nvm"
-require "c99/block"
+require_relative "../lib/c99/soc"
+require_relative "../lib/c99/nvm"
+require_relative "../lib/c99/block"
