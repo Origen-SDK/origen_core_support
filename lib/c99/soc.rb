@@ -41,7 +41,7 @@ module C99
         add_pin :late_added_pin, :reset => :drive_hi
       else
         # Test that rendering some vectors from a template works...
-        if $tester.is_a?(Origen::Tester::J750) || $tester.is_a?(Testers::J750)
+        if $tester.is_a?(OrigenTesters::J750)
           $tester.render("#{Origen.root}/pattern/j750/_mode_entry.atp.erb", :hold_cycles => 5)
         end
       end
