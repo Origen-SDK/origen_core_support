@@ -76,5 +76,12 @@ module C99
       Origen.root!
     end
 
+    def origen_dot_app
+      Origen.app
+    end
+
+    def origen_dot_app!
+      Origen.app!
+    end
   end
 end

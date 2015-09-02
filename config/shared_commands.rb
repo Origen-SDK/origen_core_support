@@ -13,7 +13,7 @@ aliases ={
 # Now branch to the specific task code
 case @command
 # in here or you can require an external file if preferred.
-when "test"
+when "core_support:test"
   require "commands/test_command"
   exit 0
 
@@ -24,6 +24,6 @@ when "test"
 # before handing control back to Origen. Un-comment the example below to get started.
 else
   @plugin_commands ||= []
-  @plugin_commands << " test         Test command from plugin core_support plugin"
+  @plugin_commands << " core_support:test         Test command from plugin core_support plugin"
 end 
 
