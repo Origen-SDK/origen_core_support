@@ -14,5 +14,3 @@ config.shared = {
 }
 
 EOT
-
-
