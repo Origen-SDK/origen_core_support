@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    origen_core_support (0.2.2)
+    origen_core_support (0.2.3)
       origen (>= 0.2.6)
 
 GEM

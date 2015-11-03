@@ -1,3 +1,13 @@
+<a class="anchor release_tag" name="v0_2_3"></a>
+<h1><a href="#v0_2_3">Tag: v0.2.3</a></h1>
+
+##### Branch: 'master'
+
+##### by Stephen McGinty on 03-Nov-2015 04:55AM
+
+
+Removed references to Model#port in J750 halt pattern
+
 <a class="anchor release_tag" name="v0_2_2"></a>
 <h1><a href="#v0_2_2">Tag: v0.2.2</a></h1>
 
