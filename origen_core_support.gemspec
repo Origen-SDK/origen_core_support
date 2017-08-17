@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Stephen McGinty"]
   spec.email         = ["stephen.f.mcginty@gmail.com"]
   spec.summary       = "A simple plugin that is used to test the Origen SDK plugin system"
-  spec.license       = 'LGPL-3'
+  spec.license       = 'MIT'
   spec.required_ruby_version     = '>= 1.9.3'
   spec.required_rubygems_version = '>= 1.8.11'
 
