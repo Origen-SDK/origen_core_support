@@ -7,10 +7,10 @@ class OrigenCoreSupportApplication < Origen::Application
   config.initials = "OrigenCoreSupport"
   config.rc_url   = "ssh://git@github.com:Origen-SDK/origen_core_support.git"
   config.shared   = {
-    :patterns => "pattern/shared",
-    :command_launcher => "config/shared_commands.rb",
-    #:templates => "templates",
-    #:programs => "program"
+    patterns: "app/patterns/shared",
+    command_launcher: "config/shared_commands.rb",
+    #templates: "templates",
+    #programs: "program"
   }
   config.release_externally = true
 

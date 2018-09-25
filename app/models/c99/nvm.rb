@@ -1,9 +1,8 @@
 module C99
   class NVM
-    attr_accessor :blocks
+    include Origen::Model
 
-    include Origen::Pins
-    include Origen::Registers
+    attr_accessor :blocks
 
     def initialize
       reg :mclkdiv, 0x03, size: 16 do |reg|

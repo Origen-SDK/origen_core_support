@@ -14,7 +14,7 @@ aliases ={
 case @command
 # in here or you can require an external file if preferred.
 when "core_support:test"
-  require "commands/test_command"
+  require_relative "../app/commands/test_command"
   exit 0
 
 # Always leave an else clause to allow control to fall back through to the

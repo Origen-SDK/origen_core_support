@@ -25,3 +25,4 @@ coverage
 .session
 .SYNC
 .pdm/pi_attributes.txt
+/tmp

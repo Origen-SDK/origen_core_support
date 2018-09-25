@@ -15,12 +15,9 @@ Gem::Specification.new do |spec|
   # Only the files that are hit by these wildcards will be included in the
   # packaged gem, the default should hit everything in most cases but this will
   # need to be added to if you have any custom directories
-  spec.files         = Dir["lib/**/*.rb", "templates/**/*", "config/**/*.rb",
-                           "bin/*", "lib/tasks/**/*.rake", "pattern/**/*.rb",
-                           "program/**/*.rb"
-                          ]
+  spec.files         = Dir["app/**/*", "config/**/*.rb", "bin/*"]
   spec.executables   = []
-  spec.require_paths = ["lib"]
+  spec.require_paths = ["app/lib", "app/models", "app/controllers"]
 
   # Add any gems that your plugin needs to run within a host application
   spec.add_runtime_dependency "origen", ">= 0.2.6"
