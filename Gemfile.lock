@@ -33,6 +33,7 @@ PATH
   specs:
     origen_core_support (0.2.3)
       origen (>= 0.2.6)
+      origen_testers
 
 GEM
   remote: http://rubygems.org/

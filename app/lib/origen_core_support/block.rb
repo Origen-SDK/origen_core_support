@@ -1,4 +1,4 @@
-module C99
+module OrigenCoreSupport
   class Block
     attr_accessor :id, :selected
 

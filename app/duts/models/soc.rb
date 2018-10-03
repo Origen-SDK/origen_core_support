@@ -1,4 +1,4 @@
-module C99
+module OrigenCoreSupport
   class SOC
     include Origen::TopLevel
 
@@ -31,6 +31,11 @@ module C99
       add_pin_alias :porta_alias, :porta
 
       @a = 2
+      define_sub_blocks
+    end
+
+    def define_sub_blocks(options = {})
+      sub_block :nvm, class_name: 'OrigenCoreSupport::NVM'
     end
 
     def startup(options)
