@@ -1,5 +1,5 @@
 module OrigenCoreSupport
-  class MyModel
+  class MySimpleModel
     include Origen::Model
 
     def test_model

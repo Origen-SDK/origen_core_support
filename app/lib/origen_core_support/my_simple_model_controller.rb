@@ -1,5 +1,5 @@
 module OrigenCoreSupport
-  class MyModelController
+  class MySimpleModelController
     include Origen::Controller
 
     def test_controller
