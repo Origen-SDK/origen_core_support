@@ -1,7 +1,7 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'nokogiri', '1.7.2'  # Helps development within NXP env
 gem 'origen_testers'
+gem 'byebug', '~>8'
 
 # Specify your gem's dependencies in origen_core_support.gemspec
 gemspec

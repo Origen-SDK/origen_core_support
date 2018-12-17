@@ -2,11 +2,12 @@
 *.swo
 *~
 
+/.byebug_history
+/.irb_history
 .bundle
 target/.default
 release_note.txt
 pkg
-lbin
 .bin
 list/referenced.list
 tags
